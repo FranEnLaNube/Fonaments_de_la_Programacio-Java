@@ -1,31 +1,31 @@
-# ejerciciosFDLP
-Ejercicios del curso de Fundamentos de la Programación del Cibernarium - Barcelona Activa
+### ejerciciosFDLP
+####Ejercicios del curso de Fundamentos de la Programación del Cibernarium - Barcelona Activa
 
-Exercicis Fonaments de la Programació – Java 
-M3 – Mètodes de Entrada
-M3 – Exercici 1
+####Exercicis Fonaments de la Programació – Java 
+#####M3 – Mètodes de Entrada
+######M3 – Exercici 1
 Fer un programa que li demani a l’usuari/ària: El nom, el cognom i l’edat.
 Un cop l’usuari/ària hagi acabat d’introduir les dades, aquestes s’han de mostrar per pantalla.
-M3 – Exercici 2
+######M3 – Exercici 2
 Fer un programa que li demani dos números sencers a l’usuari/ària. Al final, el programa imprimeix per pantalla el següent missatge:  
 El resultat de la suma és: “valor”
 El resultat de la resta és: “valor”
 El resultat de la multiplicació és: “valor”
 El resultat de la divisió és: “valor”.
-M3 – Exercici 3
+######M3 – Exercici 3
 El programa demana a l'usuari/ària que introdueixi 3 notes i el programa mostra la mitja de les 3 notes per pantalla.
 Nota:
 Les notes que introdueix l'usuari/ària són números sencers, però la mitja pot tenir decimals.
 
-M3 – Exercici Extra 1
+######M3 – Exercici Extra 1
 Escriu un programa Java que llegeix un nombre enter per teclat i obté i mostra per pantalla el doble i el triple d'aquest número.
-M3 – Exercici Extra 2
+######M3 – Exercici Extra 2
  NOTA
 Per aquest exercici es necessiten alguns coneixements del següent mòdul (Estructures condicionals).
 Escriu un programa Java que sol·liciti per pantalla un nombre enter, i si és menor que 10, ho assigni a una variable de tipus int, anomenada varInt.
 Si no ho és, llavors li assignarà a la variable varInt el número 1. (Utilitza per a això l'operador condicional ? :)
 Després, imprimeix la taula de multiplicar d'aquesta variable.
-M3 – Exercici Extra 3
+######M3 – Exercici Extra 3
 Escriu un programa Java que calculi els litres de pintura necessaris per a pintar una paret rectangular.
 Un litre de pintura cobreix aproximadament, 12 m² en una sola mà.
 Crea una constant anomenada coberturaLitro per a guardar la dada de cobertura de la pintura (12 m²)
@@ -33,20 +33,20 @@ Hauràs de demanar a l'usuari/ària:
 - L'alt i ample de la paret (multiplicant sabràs l'àrea de la mateixa)
 - El nombre de mans a aplicar.
 Mostra en pantalla els litres de pintura a utilitzar.
-M4 – Estructures Condicionals
-M4 – Exercici 1
+#####M4 – Estructures Condicionals
+######M4 – Exercici 1
 Modifica l’exercici 1 del mòdul 3. Un cop introduïdes les dades, el programa ha de mostrar el següent per pantalla:
 - Si l’usuari/ària té 18 anys o més: “Nom Cognom, ets MAJOR d’edat” 
 
 - Si l’usuari/ària és menor de 18 anys: “Nom Cognom, ets MENOR d’edat”.
-M4 – Exercici 2
+######M4 – Exercici 2
 Aquest programa li demana l’edat a l’usuari/ària, en funció d’aquesta, mostrarem un dels següents missatges per pantalla:
     • Si té 5 anys o menys: preescolar.
     • Si té entre 6 i 11 anys: primària.
     • Si té entre 12 i 15: ESO.
     • Si té entre 16 i 17: Batxillerat.
     • Si és major d'edat: FP o Universitat.
-M4 – Exercici 3
+######M4 – Exercici 3
 Una escola d’idiomes concedeix beques a futurs estudiants si compleixen una sèrie de requisits.
 A l'alumne/a se li assigna una beca si és major d’edat i si té un títol universitari. O també se li assigna una beca si l’alumne/a està a l’atur. 
 El programa demana les tres dades per pantalla i en finalitzar mostra si l’alumne/a té la beca o no.
@@ -70,7 +70,7 @@ Fer un programa que demani a l’usuari/ària quin dia i quin mes va néixer, am
     • Capricorn-Capricornio (22.12 — 19.01)
     • Aquari-Acuario (20.01 — 18.02)
     • Peixos-Piscis (19.02 — 20.03)
-M4 – Exercici Extra 1
+######M4 – Exercici Extra 1
 Fes un programa que pregunti a l'usuari/ària dos nombres enters al qual anomenaràs dividend i divisor respectivament.
 El divisor haurà d'estar comprès entre 2 i 7.
 En cas contrari, el programa haurà de mostrar un missatge d'error.
@@ -79,7 +79,7 @@ M4 – Exercici Extra 2
 
 Demana a l'usuari/ària un número entre 0 i 99 i mostra'l escrit en lletres (pots fer-ho en català o castellà).
 Exemple: 56 (cinquanta-sis) o 56 (cincuenta y seis)
-M4 – Exercici Extra 3
+######M4 – Exercici Extra 3
 Aquesta línia de codi: 
 int numRandom = (int)(Math.random() * 3) + 1;
 Retorna un número entre l'1 i el 3 de forma aleatòria.
