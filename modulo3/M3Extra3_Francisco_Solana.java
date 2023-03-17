@@ -2,7 +2,7 @@ package modulo3;
 
 import java.util.Scanner;
 
-public class M3Extra3_Francisco_Solana11NovOk {
+public class M3Extra3_Francisco_Solana{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
