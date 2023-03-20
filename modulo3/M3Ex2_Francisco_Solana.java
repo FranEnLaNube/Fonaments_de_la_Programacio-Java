@@ -8,11 +8,16 @@ public class M3Ex2_Francisco_Solana {
 		// TODO Auto-generated method stub
 
 		//Variables
+
 		int num1 = 0;
 		int num2 = 0;
+		
+		//Entrada
+		
 		Scanner entrada = new Scanner(System.in);
 
 		//Lógica
+		
 		System.out.println("Ingrese un número");
 		num1 = entrada.nextInt();
 		System.out.println("Ingrese otro número");
@@ -24,6 +29,5 @@ public class M3Ex2_Francisco_Solana {
 		System.out.println("la resta da " + (num1 - num2));
 		System.out.println("la multiplicación da " + (num1 * num2));
 		System.out.println("la división da " + ((double)num1 / num2));
-		}
-
+	}
 }
