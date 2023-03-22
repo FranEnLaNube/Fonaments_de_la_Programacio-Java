@@ -2,7 +2,7 @@ package modulo4;
 
 import java.util.Scanner;
 
-public class M4Ex4_Francisco_SolanaV1NoSubidaPeroEstaBuena_NoEstaBien {
+public class M4Ex4_Francisco_Solana {
 
 	public static void main(String[] args) {
 
@@ -17,69 +17,61 @@ public class M4Ex4_Francisco_SolanaV1NoSubidaPeroEstaBuena_NoEstaBien {
 
 		// Variables
 
-		// int usuario = 0;
 		int mes = 0;
-		int diasMes = 0;
-		String mesATexto = "";
+		String respuesta = "";
 
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Di un numero de mes(del 1 al 12)");
-
 		mes = entrada.nextInt();
-		if ((mes == 1) || (mes == 3) || (mes == 5) || (mes == 8) || (mes == 10) || (mes == 12)) {
+		entrada.close();
 
-			switch (mes) {
-			case 1:
-				mesATexto = "enero";
-				break;
-			case 3:
-				mesATexto = "marzo";
-				break;
-			case 5:
-				mesATexto = "mayo";
-				break;
-			case 8:
-				mesATexto = "agosto";
-				break;
-			case 10:
-				mesATexto = "octubre";
-				break;
-			case 12:
-				mesATexto = "diciembre";
-				break;
-			}
-			diasMes = 31;
-		} else {
-			if (mes == 2) {
-				mesATexto = "febrero";
-				diasMes = 28;
-			} else {
-				switch (mes) {
-				case 4:
-					mesATexto = "abril";
-					break;
-				case 6:
-					mesATexto = "junio";
-					break;
-				case 7:
-					mesATexto = "julio";
-					break;
-				case 9:
-					mesATexto = "septiembre";
-					break;
-				case 11:
-					mesATexto = "noviembre";
-					break;
-				default:
-					System.out.println("Di uno entre 1 y 12");
-					break;
-				}
-				diasMes = 30;//Este me lo imprime igual aunque agarre el default
-			}
-			entrada.close();
+		// Logica
+
+		switch (mes) {
+		case 1:
+			respuesta = "Enero tiene 31 días";
+			break;
+		case 2:
+			respuesta = "Febrero tiene 28 días";
+			break;
+		case 3:
+			respuesta = "Marzo tiene 31 días";
+			break;
+		case 4:
+			respuesta = "Abril tiene 30 días";
+			break;
+		case 5:
+			respuesta = "Mayo tiene 31 días";
+			break;
+		case 6:
+			respuesta = "Junio tiene 30 días";
+			break;
+		case 7:
+			respuesta = "Julio tiene 30 días";
+			break;
+		case 8:
+			respuesta = "Agosto tiene 31 días";
+			break;
+		case 9:
+			respuesta = "Septiembre tiene 30 días";
+			break;
+		case 10:
+			respuesta = "Octubre tiene 31 días";
+			break;
+		case 11:
+			respuesta = "Noviembre tiene 30 días";
+			break;
+		case 12:
+			respuesta = "Diciembre tiene 31 días";
+			break;
+		default:
+			respuesta = "Solo puedes ingresar entre 1 y 12";
+			break;
 		}
-		System.out.println(mesATexto + " tiene " + diasMes + " días.");
-	}
 
+		// Salida
+
+		System.out.println(respuesta);
+	}
 }
