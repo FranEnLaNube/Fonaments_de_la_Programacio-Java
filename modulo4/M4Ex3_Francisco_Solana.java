@@ -2,7 +2,7 @@ package modulo4;
 
 import java.util.Scanner;
 
-public class M4Ex3_Francisco_SolanaV2 {
+public class M4Ex3_Francisco_Solana {
 
 	public static void main(String[] args) {
 
