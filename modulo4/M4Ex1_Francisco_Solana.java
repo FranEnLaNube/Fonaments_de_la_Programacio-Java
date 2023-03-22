@@ -1,4 +1,4 @@
-package francisco;
+package modulo4;
 
 import java.util.Scanner;
 
