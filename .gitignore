@@ -8,3 +8,5 @@
 .project
 # dejando la carpeta bin afuera
 bin/
+#Excluye el archivo de configuración específico del entorno de desarrollo (settings.json)
+settings.json
