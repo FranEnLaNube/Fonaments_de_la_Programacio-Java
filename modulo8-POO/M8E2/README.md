@@ -5,6 +5,7 @@ La classe hotel haurà de tenir els següents atributs:
 - Nombre d’habitacions
 - Nombre de plantes
 - Superfície total de l’hotel.  
+
 Com a mètodes només haurà de tenir els getters i setters propis de la classe i un mètode anomenat calcularManteniment().  
 Aquest mètode ha de tenir en compte que cada persona del servei pot atendre 20 habitacions i haurà de mostrar quantes persones són necessàries per atendre el servei d’habitacions de l’hotel i quin és el cost total destinat al servei sabent que aquestes persones cobren 1.500 € al mes.  
 El mètode crearHotel() haurà de demanar a l’usuari/ària que introdueixi per pantalla les dades de nom, nombre d’habitacions, nombre de plantes i superfície total de l’hotel (o haurà de rebre aquestes dades per paràmetre).  
