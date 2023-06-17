@@ -1,4 +1,10 @@
+# dejando los archivos .class afuera
 *.class
+# dejando los archivos .classpath afuera
 .classpath
+# dejando la carpeta settings afuera
 /.settings/
+# dejando la carpeta project afuera
 .project
+# dejando la carpeta bin afuera
+bin/
