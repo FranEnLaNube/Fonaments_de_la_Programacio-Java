@@ -6,6 +6,11 @@ public class Cliente {
     private String apellido;
     // Array de cuentas con objetos Cuenta dentro, inicializado en 0 cuentas
     static ArrayList <Cuenta> cuentas = new ArrayList<Cuenta>(0);
+    // Constructor
+    public Cliente (String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    } 
     //Getters y Setters
     public String getNombre() {
         return nombre;
@@ -19,6 +24,11 @@ public class Cliente {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public ArrayList<Cuenta> getCuentas() {
+		return cuentas;
+	}
+
     // Método para agregar cuentas al ArrayList
     public void addCuenta(Cuenta c) {
         cuentas.add(c);
