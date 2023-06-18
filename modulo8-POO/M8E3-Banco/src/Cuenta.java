@@ -23,13 +23,9 @@ public class Cuenta {
         this.saldo = saldo;
     }
     // Métodos particulares
-    // Método para ingresar/depositar saldo
-    public int ingresar(int deposito) {
+    // Método para operar con el saldo
+    public int opSaldo(int deposito) {
         return this.saldo = saldo + deposito;
-    }
-    // Método para retirar/extraer saldo
-    public int retirar(int extraccion) {
-        return this.saldo = saldo - extraccion;
     }
 
 }
